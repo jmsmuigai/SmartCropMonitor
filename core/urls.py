@@ -3,5 +3,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('monitor.urls')),  # Connect monitor app
+    path('', include('monitor.urls')),  # ✅ This line links to your monitor app
 ]
