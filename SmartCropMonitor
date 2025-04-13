@@ -1,0 +1,18 @@
+SmartCropMonitor/
+├── core/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+├── monitor/
+│   ├── views.py
+│   ├── urls.py
+│   └── templates/
+│       └── monitor/
+│           └── home.html
+├── manage.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── db.sqlite3
